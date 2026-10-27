@@ -1,0 +1,115 @@
+.work {
+    margin-left: 90px;
+    margin-top: 50px;
+    border-radius: 16px;
+    padding: 60px 20px;
+    padding-top: 50px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+#light .work {
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: rgba(255, 215, 0, 0.15) 2px 2px 20px;
+}
+
+#dark .work {
+    background: rgba(48, 43, 99, 0.3);
+    border: 1px solid rgba(255, 215, 0, 0.15);
+}
+
+.work-exp {
+    padding: 60px 20px;
+}
+
+.work-exp h2 {
+    font-weight: bold;
+    color: #ffd700;
+    text-align: center;
+}
+
+.work-exp h2 span {
+    box-shadow: rgba(255, 215, 0, 0.3) 2px 2px 15px;
+    padding: 5px 15px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.work-exp hr {
+    color: #ffd700;
+    width: 400px;
+    margin: 10px auto;
+    opacity: 0.5;
+}
+
+#light .vertical-timeline-element-date {
+    color: #2d2060;
+}
+
+#dark .vertical-timeline-element-date {
+    color: #f4eee0 !important;
+}
+
+#light .work-exp .vertical-timeline-element-title {
+    color: #2d2060;
+    font-weight: bold;
+}
+
+#dark .work-exp .vertical-timeline-element-title {
+    color: #ffd700 !important;
+}
+
+.vertical-timeline-element-tools {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.9;
+    margin: 4px 0 10px 0;
+    line-height: 1.4;
+}
+
+#dark .vertical-timeline-element-content {
+    background: rgba(48, 43, 99, 0.8) !important;
+    box-shadow: 0 0 0 3px #ffd700 !important;
+    border: 1px solid rgba(255, 215, 0, 0.3) !important;
+}
+
+#light .vertical-timeline-element-content {
+    background: #ffd700 !important;
+    box-shadow: 0 0 0 3px #ffd700 !important;
+}
+
+#dark .vertical-timeline-element-content-arrow {
+    border-right-color: rgba(48, 43, 99, 0.8) !important;
+}
+
+#dark .vertical-timeline::before {
+    background: #ffd700 !important;
+}
+
+#light .vertical-timeline::before {
+    background: #ffd700 !important;
+}
+
+#dark .vertical-timeline-element-icon {
+    box-shadow: 0 0 0 4px #ffd700 !important;
+}
+
+@media (max-width: 600px) {
+    .work {
+        margin-left: 0;
+    }
+    .work-exp {
+        padding: 30px 10px;
+    }
+    .work-exp hr {
+        width: 200px;
+    }
+}
+
+/* Light mode: Tools ka label aur naam black */
+#light .work-exp .vertical-timeline-element-tools,
+#light .work-exp .vertical-timeline-element-tools strong {
+    color: #000 !important;
+}
+

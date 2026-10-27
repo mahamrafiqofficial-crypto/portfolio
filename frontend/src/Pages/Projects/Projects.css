@@ -1,0 +1,120 @@
+.project {
+    margin: 90px;
+}
+
+.project hr {
+    color: #ffd700;
+    width: 400px;
+    margin: 10px auto;
+    opacity: 0.5;
+}
+
+.project h2 {
+    font-weight: bold;
+    color: #ffd700;
+    text-align: center;
+}
+
+.project h2 span {
+    box-shadow: rgba(255, 215, 0, 0.3) 2px 2px 15px;
+    padding: 5px 15px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+#ads {
+    margin: 30px 0px 30px 0;
+    row-gap: 40px;  
+}
+
+#ads .card-notify-badge {
+    position: absolute;
+    left: -10px;
+    top: -20px;
+    background: #ffd700;
+    color: #0f0c29;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.project .card img {
+    height: 200px;
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+}
+
+.card-detail-badge {
+    background-color: #ffd700;
+    color: #0f0c29;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card-image-overlay span {
+    display: inline-block;
+    margin: 5px;
+}
+
+.project {
+    position: relative;
+    overflow: hidden;  
+}
+
+#light .project .card {
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(255, 215, 0, 0.3);
+    color: #2d2060;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+#dark .project .card {
+    background: rgba(48, 43, 99, 0.6);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 215, 0, 0.2);
+    color: #ffffff;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.project .card:hover {
+    border: 1px solid #ffd700 !important;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(255, 215, 0, 0.2) !important;
+}
+
+.ad-btn {
+    text-transform: uppercase;
+    width: 150px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    background: linear-gradient(135deg, #ffd700, #ff8c00);
+    color: #0f0c29;
+    border-radius: 80px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 35px;
+    text-decoration: none;
+    margin: 20px auto;
+}
+
+.ad-btn:hover {
+    background: transparent;
+    color: #ffd700;
+    border: 2px solid #ffd700;
+    transition: all 0.5s ease;
+}
+
+@media (max-width: 600px) {
+    .project {
+        margin: 20px 10px;
+    }
+    .project hr {
+        width: 200px;
+    }
+}

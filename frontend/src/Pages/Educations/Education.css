@@ -1,0 +1,78 @@
+.education {
+    padding: 50px 20px;
+    margin: 50px 0px;
+    margin-left: 90px;
+    border-radius: 16px;
+}
+
+#light .education {
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: rgba(255, 215, 0, 0.15) 2px 2px 20px;
+}
+
+#dark .education {
+    background: rgba(48, 43, 99, 0.3);
+    border: 1px solid rgba(255, 215, 0, 0.15);
+}
+
+.education hr {
+    color: #ffd700;
+    width: 400px;
+    margin: 10px auto;
+    opacity: 0.6;
+}
+
+.education h2 {
+    font-weight: bold;
+    color: #ffd700;
+    text-align: center;
+}
+
+.education h2 span {
+    box-shadow: rgba(255, 215, 0, 0.3) 2px 2px 15px;
+    padding: 5px 15px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.education .vertical-timeline-element-title {
+    color: #ffd700;
+}
+
+.education {
+    position: relative;
+    overflow: hidden;  
+}
+
+#light .education .vertical-timeline-element-subtitle {
+    color: #2d2060;
+}
+
+#dark .education .vertical-timeline-element-subtitle {
+    color: #a0a0a0;
+}
+
+#dark .education .vertical-timeline-element-date {
+    color: #f4eee0 !important;
+}
+
+#dark .education .vertical-timeline-element-content {
+    background-color: rgba(48, 43, 99, 0.8) !important;
+    box-shadow: 0 0 0 3px #ffd700 !important;
+    border: 1px solid rgba(255, 215, 0, 0.3) !important;
+}
+
+#light .education .vertical-timeline-element-content {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    box-shadow: 0 0 0 3px #ffd700 !important;
+}
+
+@media (max-width: 600px) {
+    .education {
+        margin-left: 0;
+        padding: 30px 10px;
+    }
+    .education hr {
+        width: 250px;
+    }
+}

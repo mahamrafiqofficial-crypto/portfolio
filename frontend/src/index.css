@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* LIGHT MODE */
+#light {
+    background: linear-gradient(135deg, #f5f0ff 0%, #ede8ff 50%, #f0ecff 100%);
+    color: #1e1e2c;
+}
+
+/* DARK MODE - Galaxy */
+#dark {
+    background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+    color: #ffffff;
+    min-height: 100vh;
+}
+@media (max-width: 600px) {
+    canvas {
+        display: none;
+    }
+}
+
+/* Light mode gradient background */
+#light {
+    background: linear-gradient(135deg, #f0eaff 0%, #e8d5ff 30%, #dce8ff 60%, #f0eaff 100%);
+    background-attachment: fixed;
+}
+
+/* Light mode About */
+#light .about {
+    background: rgba(255, 255, 255, 0.6) !important;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(150, 100, 255, 0.2);
+    box-shadow: rgba(150, 100, 255, 0.15) 2px 2px 25px;
+}
+
+/* Light mode Education */
+#light .education {
+    background: rgba(255, 255, 255, 0.5) !important;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(150, 100, 255, 0.15);
+}
+
+/* Light mode TechStack */
+#light .techstack {
+    background: rgba(255, 255, 255, 0.4) !important;
+    backdrop-filter: blur(10px);
+}
+
+#light .techstack .card {
+    background: rgba(255, 255, 255, 0.8) !important;
+    border: 1px solid rgba(150, 100, 255, 0.2) !important;
+    box-shadow: rgba(150, 100, 255, 0.1) 2px 2px 15px !important;
+}
+
+#light .techstack .card:hover {
+    background: #2d2060 !important;
+    color: white !important;
+    border: 1px solid #2d2060 !important;
+    transform: translateY(-5px);
+}
+
+/* Light mode Projects */
+#light .project {
+    background: rgba(255, 255, 255, 0.4) !important;
+    backdrop-filter: blur(10px);
+}
+
+#light .project .card {
+    background: rgba(255, 255, 255, 0.9) !important;
+    border: 1px solid rgba(150, 100, 255, 0.2) !important;
+    box-shadow: rgba(150, 100, 255, 0.1) 2px 2px 15px !important;
+}
+
+#light .project .card:hover {
+    border: 1px solid #2d2060 !important;
+    transform: translateY(-5px);
+    box-shadow: rgba(45, 32, 96, 0.2) 0px 10px 30px !important;
+}
+
+/* Light mode Work Experience */
+#light .work {
+    background: rgba(255, 255, 255, 0.5) !important;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(150, 100, 255, 0.15);
+}
+
+/* Light mode Contact */
+#light .contact {
+    background: transparent;
+}
+
+#light .card0 {
+    background: rgba(255, 255, 255, 0.8) !important;
+    box-shadow: rgba(150, 100, 255, 0.2) 0px 4px 20px !important;
+    border: 1px solid rgba(150, 100, 255, 0.2) !important;
+}
+
+/* Light mode Footer */
+#light .footer {
+    background: rgba(255, 255, 255, 0.6) !important;
+    border: 1px solid rgba(150, 100, 255, 0.2) !important;
+    box-shadow: rgba(150, 100, 255, 0.1) 2px 2px 20px !important;
+}
+
+/* Light mode text colors */
+#light .about-content h1 {
+    color: #2d2060 !important;
+    border-bottom: 2px solid #2d2060 !important;
+}
+
+#light .about-content p {
+    color: #3d2b7a !important;
+}
+
+#light .education h2,
+#light .work-exp h2,
+#light .project h2,
+#light .techstack h2 {
+    color: #2d2060 !important;
+}
+
+#light .education hr,
+#light .work-exp hr,
+#light .project hr,
+#light .techstack hr {
+    color: #2d2060 !important;
+    opacity: 0.4;
+}
+
+/* Light mode vertical timeline */
+#light .vertical-timeline-element-content {
+    background: rgba(255, 255, 255, 0.9) !important;
+    box-shadow: 0 0 0 3px #2d2060 !important;
+}
+
+#light .vertical-timeline::before {
+    background: #2d2060 !important;
+}
+
+#light .vertical-timeline-element-icon {
+    box-shadow: 0 0 0 4px #2d2060 !important;
+}
+
+.swiper-wrapper {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.container-fluid {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#dark, #light {
+    overflow-x: hidden;
+}
