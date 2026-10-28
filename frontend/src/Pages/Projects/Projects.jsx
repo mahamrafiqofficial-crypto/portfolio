@@ -44,7 +44,7 @@ export const Projects = () => {
                     </Fade>
                   </div>
                   <Fade direction="up" triggerOnce cascade damping={0.15}>
-                    <a className='ad-btn' href="https://portfolio-website-5f531.web.app/">View</a>
+                    <a className='ad-btn' target="_blank" rel="noopener noreferrer" href="https://portfolio-website-5f531.web.app/">View</a>
                   </Fade>
                 </div>
               </div>
@@ -74,7 +74,7 @@ export const Projects = () => {
                     </Fade>
                   </div>
                   <Fade direction="up" triggerOnce cascade damping={0.15}>
-                    <a className='ad-btn' href="https://worldclassvoyages.netlify.app/#/">View</a>
+                    <a className='ad-btn' target="_blank" rel="noopener noreferrer" href="https://worldclassvoyages.netlify.app/#/">View</a>
                   </Fade>
                 </div>
               </div>
@@ -106,7 +106,7 @@ export const Projects = () => {
                     </Fade>
                   </div>
                   <Fade direction="up" triggerOnce cascade damping={0.15}>
-                    <a className='ad-btn' href="https://notes-by-maham.vercel.app">View</a>
+                    <a className='ad-btn' target="_blank" rel="noopener noreferrer" href="https://notes-by-maham.vercel.app">View</a>
                   </Fade>
                 </div>
               </div>
@@ -138,7 +138,7 @@ export const Projects = () => {
                     </Fade>
                   </div>
                   <Fade direction="up" triggerOnce cascade damping={0.15}>
-                    <a className='ad-btn' href="https://student-management-frontend-sage.vercel.app">View</a>
+                    <a className='ad-btn' target="_blank" rel="noopener noreferrer" href="https://student-management-frontend-sage.vercel.app">View</a>
                   </Fade>
                 </div>
               </div>
@@ -169,7 +169,7 @@ export const Projects = () => {
                     </Fade>
                   </div>
                   <Fade direction="up" triggerOnce cascade damping={0.15}>
-                    <a className='ad-btn' href="https://www.fiverr.com/urooj_inbox_pro/send-bulk-emails-email-blast-and-email-marketing-campaign-to-inbox">View</a>
+                    <a className='ad-btn' target="_blank" rel="noopener noreferrer" href="https://www.fiverr.com/urooj_inbox_pro/send-bulk-emails-email-blast-and-email-marketing-campaign-to-inbox">View</a>
                   </Fade>
                 </div>
               </div>
@@ -201,7 +201,7 @@ export const Projects = () => {
                     </Fade>
                   </div>
                   <Fade direction="up" triggerOnce cascade damping={0.15}>
-                    <a className='ad-btn' href="https://quiz-appify.vercel.app/">View</a>
+                    <a className='ad-btn' target="_blank" rel="noopener noreferrer" href="https://quiz-appify.vercel.app/">View</a>
                   </Fade>
                 </div>
               </div>
