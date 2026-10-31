@@ -15,7 +15,7 @@ export function Footer() {
             <a href="https://github.com/mahamrafiqofficial-crypto" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <FaGithub />
             </a>
-            <a href="mailto:mahamrafiq.official@email.com" aria-label="Email">
+            <a href="mailto:mahamrafiq.official@gmail.com" aria-label="Email">
               <FaEnvelope />
             </a>
           </div>
@@ -31,7 +31,7 @@ export function Footer() {
 
         <div className="footer-contact">
           <p className="footer-heading">Get in touch</p>
-          <span><FaEnvelope /> mahamrafiq.official@email.com</span>
+          <span><FaEnvelope /> mahamrafiq.official@gmail.com</span>
           <span><FaMapMarkerAlt /> Faisalabad, Pakistan</span>
         </div>
       </div>
